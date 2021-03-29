@@ -1,0 +1,25 @@
+.simple {
+    width: 500px;
+    border: 2px solid red;
+    margin: 10px 30px ;}
+    /* this is top and bottom */
+    
+    /* margin: 10px auto;
+    this is 10 top and bottom and auto means the width on either side will be divided equally */
+
+    /* margin: auto 10px;
+    the top and bottom is divided equally, and 10px is on right and left */
+
+    /* margin: 10px 20px 30px 40px;
+    this is top, right, bottom, left. */
+
+
+ .fancy {
+     width: 500px;
+     border: 2px solid cadetblue;
+     padding-top: 50px;
+     margin: 10px 30px;
+     box-sizing: border-box;
+     /* maintains the size of the container */
+
+ }

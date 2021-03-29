@@ -1,0 +1,17 @@
+h1 {
+    color: #387c6d;
+    font-size: 30px;
+    text-align: center;
+}   
+
+.box {
+    border: 2px solid green;
+    
+}
+div > p
+{color:hotpink;}
+
+div + p 
+{color: green}
+
+p > span {color: blue;}
