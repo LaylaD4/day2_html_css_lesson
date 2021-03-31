@@ -1,29 +1,31 @@
 .box {
-    width: 400px;
+    width: 200px;
     height: 100px;
     margin: 10px;
     border: 2px solid red;
     display: inline-block;
-    
-    
-    
+    /* position: relative;
+    top: 30px;
+    left: 50px; */
+
 }
 
-img
-{ 
-    display: inline;
-    width: 300px;
-    height: 300px;
+img {
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
 }
-/* fixed units: px cm mm 
-   relative units: % em rem etc. */
 
-   body {
-background-image: ;
-
-   }
-   
+body {
+    background-image: url("../img/puppy.jpg");
+    background-repeat: no-repeat; /* stops image from repeating on screem */
+    background-size: cover; /* fits image to entire screen */
+}
 
 
 
-
+/* There are two types of units: ABSOLUTE & RELATIVE:
+   Absolute/FIXED units: px, cm, mm, in, pt, pc
+   Relative units: vw, vh, %, em rem etc, ex, ch, vmin, vmax */

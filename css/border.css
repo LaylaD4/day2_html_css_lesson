@@ -1,11 +1,12 @@
 .simple {
     width: 500px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 10px 30px ;}
-    /* this is top and bottom */
+    /* this is 10px: top and bottom, and 30px: right and left */
     
     /* margin: 10px auto;
-    this is 10 top and bottom and auto means the width on either side will be divided equally */
+    this is 10px top and bottom, and auto means the width on either 
+    side (right and left) will be divided equally */
 
     /* margin: auto 10px;
     the top and bottom is divided equally, and 10px is on right and left */
@@ -20,6 +21,7 @@
      padding-top: 50px;
      margin: 10px 30px;
      box-sizing: border-box;
-     /* maintains the size of the container */
+     /* {box-sizing: border-box;} maintains the size of the container without margin or 
+     padding adding to it */
 
  }
